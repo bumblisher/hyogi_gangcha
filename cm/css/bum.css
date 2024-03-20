@@ -1,36 +1,31 @@
+@charset "utf-8";
 
 
-.dim-layer {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1000;
-    display: none;
-}
+h3{font-size: 16px;font-weight: 700;}
+h3:first-child{margin-top: 0;}
+.list_point li{display: flex;align-items: center;height: 59px;border-bottom: 1px solid #eee;}
+.list_point li .tit{font-size: 16px;line-height: 140%;}
+.list_point li .num{margin-left: auto;font-size: 18px;font-weight: 700;box-shadow: inset 0 -12px 0 #E6FFE3;padding: 2px;}
+.list_point li .num::after{content: 'P';margin-left: 4px;font-weight: 400;font-size: 16px;}
 
-.popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    padding: 20px;
-    z-index: 1001;
-    display: none;
-}
+.box_history h3{margin-top: 43px;}
+.btn_history{display: flex;align-items: center;gap: 8px;margin-top: 12px;}
+.btn_history button{padding: 10px 16px;height: 40px;box-sizing: border-box;border-radius: 25px;font-size: 14px;font-weight: 500;background:#F4F4F4;}
+.btn_history button.on{background:#333333;color:#fff;}
 
-.popup h2 {
-    margin-top: 0;
-}
-
-.popup p {
-    margin-bottom: 0;
-}
-
-/* Disable scrolling when popup is open */
-.no-scroll {
-    overflow: hidden;
-}
+.list_history{margin-top: 16px;}
+.list_history > li{border: 1px solid #ddd;border-radius: 14px;padding:16px}
+.list_history > li + li{margin-top: 8px;}
+.list_history > li .top{display: flex;align-items: flex-start;}
+.list_history > li .top .badge{background: #DEF7E4;color:#097E25;display: flex;align-items: center;justify-content: center;min-width: 40px;height: 23px;border-radius: 6px;font-size: 10px;font-weight: 700;}
+.list_history > li .top .right{margin-left: auto;}
+.list_history > li .top .date{font-size: 12px;line-height: 150%;color:#888}
+.list_history > li .top .num{display: flex;align-items: center;font-size: 16px;font-weight: 700;line-height: 150%;justify-content: flex-end;color:#4CB01D}
+.list_history > li .top .num::after{content: '원';font-size: 14px;font-weight: 400;margin-left: 3px;}
+.list_history > li ul{margin-top: 12px;}
+.list_history > li ul li{display: flex;align-items: center;font-size: 14px;line-height: 150%;}
+.list_history > li ul li + li{margin-top: 12px;}
+.list_history > li ul li .tit{color:#888}
+.list_history > li ul li .txt{color:#111;margin-left: auto;}
+.list_history > li.use .badge{background: #FFEDED;color:#E95C49;}
+.list_history > li.use .num{color:#E95C49}
