@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>광차</title>
+    <link rel="stylesheet" href="../../cm/css/base.css">
+    <link rel="stylesheet" href="../../cm/css/contents.css">
+</head>
+<body>
+    <header class="header tit">
+        <a href="#" class="btn_back">뒤로가기</a>
+        <div class="titbox">
+            <h2>헐크워시 세차 선택</h2>
+        </div>
+    </header>
+    <div class="container no_tabbar">
+        <div class="sub_contents bg_white">
+            <div class="tabbox">
+                <div class="tabs">
+                    <button class="tab active" onclick="openTab('tab1')">베이</button>
+                    <button class="tab" onclick="openTab('tab2')">청소/에어</button>
+                    <button class="tab" onclick="openTab('tab3')">실내클리닝</button>
+                </div>
+                
+                <div id="tab1" class="tab_content active">
+                    <div class="cws_titbox">
+                        <h3>베이 선택</h3>
+                        <p>사용하실 베이 번호를 선택 하세요</p>
+                    </div>
+                    <div class="cws_zone_selectbox bay">
+                        <ul>
+                            <li class="on">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li class="active">6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                            <li>10</li>
+    
+                        </ul>
+                    </div>
+                    <a href="#" class="cws_bannerbox">
+                        <img src="../cm/images/cws_start_banner.png" alt="광차 오픈기념 1+1 이벤트, 친구 추천해서 가입하면 모두 5,000P 증정">
+                        <div class="notibox on"><span>잠시 후 세차가 사용이 가능합니다.</span></div>
+                    </a>
+                    <div class="btnbox">
+                        <button id="close-slide-popup" class="btn_cm conf start">서비스 시작</button>
+                    </div>
+
+                    <fieldset class="toggle_switch_box right">
+                        <label>
+                            <div class="toggle_labelbox">
+                                <span>최고 할인쿠폰 자동 적용</span>
+                            </div>
+                            <input role="switch" type="checkbox" checked/>
+                        </label>
+                    </fieldset>
+
+                    <div class="df_tit">
+                        <h4>오늘 이용 내역</h4>
+                    </div>
+                    <div class="tbbox">
+                        <div class="table">
+                            <div class="thead">
+                                <div class="row">
+                                    <div class="cell wd60">서비스</div>
+                                    <div class="cell">시작 시간</div>
+                                    <div class="cell">이용 시간 (초)</div>
+                                    <div class="cell">이용 금액 (원)</div>
+                                </div>
+                            </div>
+                            <div class="tbody">
+                                <div class="row">
+                                    <div class="cell wd60 pt">고압수</div>
+                                    <div class="cell">12 : 30</div>
+                                    <div class="cell">30</div>
+                                    <div class="cell tar">470</div>
+                                </div>
+                                <div class="row">
+                                    <div class="cell wd60 pt">폼솔</div>
+                                    <div class="cell">12 : 30</div>
+                                    <div class="cell">50</div>
+                                    <div class="cell tar">1,500</div>
+                                </div>
+                                <div class="row">
+                                    <div class="cell wd60 pt">폼건</div>
+                                    <div class="cell">12 : 30</div>
+                                    <div class="cell">20</div>
+                                    <div class="cell tar">2,350</div>
+                                </div>
+                                <div class="row">
+                                    <div class="cell wd60 pt">고압수</div>
+                                    <div class="cell">12 : 30</div>
+                                    <div class="cell">10</div>
+                                    <div class="cell tar">50,000</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div id="tab2" class="tab_content">
+                    <div class="cws_titbox">
+                        <h3>청소/에어 선택</h3>
+                        <p>사용하실 청소/에어 번호를 선택 하세요</p>
+                    </div>
+                    <div class="cws_zone_selectbox clean">
+                        <ul>
+                            <li class="on">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li class="active">6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                            <li>10</li>
+    
+                        </ul>
+                    </div>
+                    <a href="#" class="cws_bannerbox">
+                        <img src="../cm/images/cws_start_banner.png" alt="광차 오픈기념 1+1 이벤트, 친구 추천해서 가입하면 모두 5,000P 증정">
+                        <div class="notibox on"><span>잠시 후 세차가 사용이 가능합니다.</span></div>
+                    </a>
+                    <div class="btnbox">
+                        <button id="close-slide-popup" class="btn_cm conf start">서비스 시작</button>
+                    </div>
+
+                    <fieldset class="toggle_switch_box right">
+                        <label>
+                            <div class="toggle_labelbox">
+                                <span>최고 할인쿠폰 자동 적용</span>
+                            </div>
+                            <input role="switch" type="checkbox" checked/>
+                        </label>
+                    </fieldset>
+
+                    <div class="df_tit">
+                        <h4>오늘 이용 내역</h4>
+                    </div>
+                    <div class="tbbox">
+                        <div class="table">
+                            <div class="thead">
+                                <div class="row">
+                                    <div class="cell wd60">서비스</div>
+                                    <div class="cell">시작 시간</div>
+                                    <div class="cell">이용 시간 (초)</div>
+                                    <div class="cell">이용 금액 (원)</div>
+                                </div>
+                            </div>
+                            <div class="tbody">
+                                <div class="row">
+                                    <div class="cell wd60 pt">고압수</div>
+                                    <div class="cell">12 : 30</div>
+                                    <div class="cell">30</div>
+                                    <div class="cell tar">470</div>
+                                </div>
+                                <div class="row">
+                                    <div class="cell wd60 pt">폼솔</div>
+                                    <div class="cell">12 : 30</div>
+                                    <div class="cell">50</div>
+                                    <div class="cell tar">1,500</div>
+                                </div>
+                                <div class="row">
+                                    <div class="cell wd60 pt">폼건</div>
+                                    <div class="cell">12 : 30</div>
+                                    <div class="cell">20</div>
+                                    <div class="cell tar">2,350</div>
+                                </div>
+                                <div class="row">
+                                    <div class="cell wd60 pt">고압수</div>
+                                    <div class="cell">12 : 30</div>
+                                    <div class="cell">10</div>
+                                    <div class="cell tar">50,000</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="tab3" class="tab_content" >
+                    <div class="cws_titbox">
+                        <h3>매트 세척기 선택</h3>
+                        <p>사용하실 매트 세척기 번호를 선택 하세요</p>
+                    </div>
+                    <div class="cws_zone_selectbox mat">
+                        <ul>
+                            <li class="on">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li class="active">6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                            <li>10</li>
+    
+                        </ul>
+                    </div>
+                    <a href="#" class="cws_bannerbox">
+                        <img src="../cm/images/cws_start_banner.png" alt="광차 오픈기념 1+1 이벤트, 친구 추천해서 가입하면 모두 5,000P 증정">
+                        <div class="notibox on"><span>잠시 후 세차가 사용이 가능합니다.</span></div>
+                    </a>
+                    <div class="btnbox">
+                        <button id="close-slide-popup" class="btn_cm stop">서비스 종료</button>
+                    </div>
+
+                    <fieldset class="toggle_switch_box right">
+                        <label>
+                            <div class="toggle_labelbox">
+                                <span>최고 할인쿠폰 자동 적용</span>
+                            </div>
+                            <input role="switch" type="checkbox" checked/>
+                        </label>
+                    </fieldset>
+
+                    <div class="df_tit">
+                        <h4>오늘 이용 내역</h4>
+                    </div>
+                    <div class="tbbox">
+                        <div class="table">
+                            <div class="thead">
+                                <div class="row">
+                                    <div class="cell wd60">서비스</div>
+                                    <div class="cell">시작 시간</div>
+                                    <div class="cell">이용 시간 (초)</div>
+                                    <div class="cell">이용 금액 (원)</div>
+                                </div>
+                            </div>
+                            <div class="tbody">
+                                <div class="row">
+                                    <div class="cell wd60 pt">고압수</div>
+                                    <div class="cell">12 : 30</div>
+                                    <div class="cell">30</div>
+                                    <div class="cell tar">470</div>
+                                </div>
+                                <div class="row">
+                                    <div class="cell wd60 pt">폼솔</div>
+                                    <div class="cell">12 : 30</div>
+                                    <div class="cell">50</div>
+                                    <div class="cell tar">1,500</div>
+                                </div>
+                                <div class="row">
+                                    <div class="cell wd60 pt">폼건</div>
+                                    <div class="cell">12 : 30</div>
+                                    <div class="cell">20</div>
+                                    <div class="cell tar">2,350</div>
+                                </div>
+                                <div class="row">
+                                    <div class="cell wd60 pt">고압수</div>
+                                    <div class="cell">12 : 30</div>
+                                    <div class="cell">10</div>
+                                    <div class="cell tar">50,000</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="dim"></div>
+    <div class="layer_popup"></div>
+<script>
+    // script.js
+function openTab(tabId) {
+    var tabs = document.querySelectorAll('.tab_content'); 
+    tabs.forEach(function(tab) {
+        tab.classList.remove('active');
+    });
+    document.getElementById(tabId).classList.add('active');
+
+    var tabButtons = document.querySelectorAll('.tab');
+    tabButtons.forEach(function(button) {
+        button.classList.remove('active');
+        if (button.getAttribute('onclick') === "openTab('" + tabId + "')") {
+            button.classList.add('active');
+        }
+    });
+}
+</script>
+</body>
+</html>

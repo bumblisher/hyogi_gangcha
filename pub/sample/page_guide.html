@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>광차</title>
+    <link rel="stylesheet" href="../../cm/css/base.css">
+    <link rel="stylesheet" href="../../cm/css/contents.css">
+    <link rel="stylesheet" href="../../cm/css/swiper-bundle.min.css">
+    <script src="../../cm/js/swiper-bundle.min.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <a href="#" class="select_btn">우리집</a>
+        </div>
+        <div class="right">
+            <button class="mypage_btn">마이페이지</button>
+            <div class="alarmbox">
+                <button class="alarm_btn">알림</button>
+                <span class="cnt_txt">55</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="section01">
+            <article class="tabbox">
+                <div class="_flex">
+                    <a href="#" class="tab_btn">
+                        <span class="name">광페이머니</span>
+                        <span class="round_txt">충전</span>
+                        <div class="_flex _baseline">
+                            <span class="price_txt ml24">380,000</span>
+                            <span class="amount_txt">원</span>
+                        </div>
+                    </a>
+                    <a href="#" class="tab_btn">
+                        <span class="name">쿠폰</span>
+                        <div class="_flex _baseline">
+                            <span class="price_txt ml10">2</span>
+                            <span class="amount_txt">장</span>
+                        </div>
+                    </a>
+                </div>
+            </article>
+            <!-- Slider main container -->
+            <article>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    </div>
+            </article>
+    
+            <article class="recbox">
+                <p class="">김광석님을 위한 추천 세차장</p>
+                <div class="rec_conbox rec">
+                    <div class="rec_con_lt">
+                        <div>
+                            <span></span>
+                            <span>원활</span>
+                        </div>
+                        
+                        <img src="" alt="세차장 사진">
+                    </div>
+                    <div class="rec_con_rt">
+                        <div class="namebox">
+                            <p>헐크워시</p>
+                            <i>별점</i>
+                            <span>4.8</span>
+                        </div>
+                        <div>
+                            <span>매장포인트</span>
+                            <span>9,500P</span>
+                        </div>
+                        <div class="addressbox">
+                            <span>0.8km</span>
+                            <span>서울 성동구 왕십리로</span>
+                        </div>
+                        <div class="tagbox">
+                            <div>
+                                <span>카페</span>
+                                <span>편의점</span>
+                                <span>애견동반</span>
+                                <span>손세차</span>
+                                <span>정비가능</span>
+                                <span>인쇄가능</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        
+        <section class="recbox">
+            <div class="sub_filter_box">
+                <ul class="sub_filter">
+                    <li class="on"><button>거리순</button></li>
+                    <li><button>포인트순</button></li>
+                    <li><button >별점순</button></li>
+                    <li id="open-slide-popup" class="arrow"><button>부대시설여부</button></li>
+                </ul>
+            </div>
+            <div class="rec_conbox">
+                <div class="rec_con_lt">
+                    <div>
+                        <span></span>
+                        <span>원활</span>
+                    </div>
+                    
+                    <img src="" alt="세차장 사진">
+                </div>
+                <div class="rec_con_rt">
+                    <div class="namebox">
+                        <p>헐크워시</p>
+                        <i>별점</i>
+                        <span>4.8</span>
+                    </div>
+                    <div>
+                        <span>매장포인트</span>
+                        <span>9,500P</span>
+                    </div>
+                    <div class="addressbox">
+                        <span>0.8km</span>
+                        <span>서울 성동구 왕십리로</span>
+                    </div>
+                    <div class="tagbox">
+                        <div>
+                            <span>카페</span>
+                            <span>편의점</span>
+                            <span>애견동반</span>
+                            <span>손세차</span>
+                            <span>정비가능</span>
+                            <span>인쇄가능</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rec_conbox">
+                <div class="rec_con_lt">
+                    <div>
+                        <span></span>
+                        <span class="congested">혼잡</span>
+                    </div>
+                    
+                    <img src="" alt="세차장 사진">
+                </div>
+                <div class="rec_con_rt">
+                    <div class="namebox">
+                        <p>헐크워시</p> 
+                        <i>별점</i>
+                        <span>4.8</span>
+                    </div>
+                    <div class="nopoint">
+                        <span>매장포인트</span>
+                        <span>9,500P</span>
+                    </div>
+                    <div class="addressbox">
+                        <span>0.8km</span>
+                        <span>서울 성동구 왕십리로</span>
+                    </div>
+                    <div class="tagbox" >
+                        <div>
+                            <span>카페</span>
+                            <span>편의점</span>
+                            <span>애견동반</span>
+                            <span>손세차</span>
+                            <span>정비가능</span>
+                            <span>인쇄가능</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rec_conbox">
+                <div class="rec_con_lt">
+                    <div>
+                        <span></span>
+                        <span class="finish">종료</span>
+                    </div>
+                    
+                    <img src="" alt="세차장 사진">
+                </div>
+                <div class="rec_con_rt">
+                    <div class="namebox">
+                        <p>헐크워시</p>
+                        <i>별점</i>
+                        <span>4.8</span>
+                    </div>
+                    <div>
+                        <span>매장포인트</span>
+                        <span>9,500P</span>
+                    </div>
+                    <div class="addressbox">
+                        <span>0.8km</span>
+                        <span>서울 성동구 왕십리로</span>
+                    </div>
+                    <div class="tagbox">
+                        <div>
+                            <span>카페</span>
+                            <span>편의점</span>
+                            <span>애견동반</span>
+                            <span>손세차</span>
+                            <span>정비가능</span>
+                            <span>인쇄가능</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="sub_contents bg_white"> 
+            <div class="tabbox">
+                <div class="tabs">
+                    <button class="tab active" onclick="openTab('tab1')">베이</button>
+                    <button class="tab" onclick="openTab('tab2')">청소/에어</button>
+                    <button class="tab" onclick="openTab('tab3')">실내클리닝</button>
+                </div>
+                
+                <div id="tab1" class="tab_content active">
+                    <div class="cws_titbox">
+                        <h3>베이 선택</h3>
+                        <p>사용하실 베이 번호를 선택 하세요</p>
+                    </div>
+                    <div class="cws_zone_selectbox">
+                        <ul>
+                            <li class="on">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li class="active">6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                            <li>10</li>
+        
+                        </ul>
+                    </div>
+                    <fieldset class="toggle_switch_box right">
+                        <label>
+                            <div class="toggle_labelbox">
+                                <span>최고 할인쿠폰 자동 적용</span>
+                                <div class="tooltip_box ">
+                                    <button title="툴팁버튼"></button>
+                                    <span>툴팁 내용 입니다.<br/>툴팁 툴팁</span>
+                                </div>
+                            </div>
+                            <input role="switch" type="checkbox" checked/>
+                        </label>
+                    </fieldset>
+                </div>
+                
+                <div id="tab2" class="tab_content ">
+                    <div class="cws_titbox">
+                        <h3>청소/에어 선택</h3>
+                        <p>사용하실 청소/에어 번호를 선택 하세요</p>
+                    </div>
+                </div>
+                
+                <div id="tab3" class="tab_content" >
+                    <div class="cws_titbox">
+                        <h3>매트 세척기 선택</h3>
+                        <p>사용하실 매트 세척기 번호를 선택 하세요</p>
+                    </div>
+                </div>
+            </div>
+            <div class="btnbox">
+                <button id="close-slide-popup" class="btn_cm conf">닫기</button>
+            </div>
+
+        </div>
+        
+    </div>
+    </div>
+
+    <footer>
+        <div >Tab 1</div>
+        <div>Tab 2</div>
+        <div>Tab 3</div>
+        <div>Tab 4</div>
+        <div>Logo</div>
+    </footer>
+    <!-- 모달 백드롭 -->
+    <div id="modal-backdrop" class="dim"></div>
+    <!-- 팝업 -->
+    <div id="slide-popup" class="slide-popup"></div>
+    
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            loop: false,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+            },  
+        });
+
+// script.js
+document.addEventListener('DOMContentLoaded', function() {
+    var openSlidePopupBtn = document.getElementById('open-slide-popup');
+    var modalBackdrop = document.getElementById('modal-backdrop');
+    var slidePopup = document.getElementById('slide-popup');
+
+    openSlidePopupBtn.addEventListener('click', function() {
+        fetch('CO/slide_popup.html')
+            .then(response => response.text())
+            .then(html => {
+                slidePopup.innerHTML = html;
+                showModal();
+                document.body.style.overflow = 'hidden';
+
+                // 팝업이 열린 후 닫기 버튼에 이벤트를 바인딩합니다.
+                var closeSlidePopupBtn = document.getElementById('close-slide-popup');
+                closeSlidePopupBtn.addEventListener('click', function() {
+                    hideModal();
+                });
+            })
+            .catch(error => console.error('팝업 로드 중 에러:', error));
+    });
+
+    function showModal() {
+        modalBackdrop.classList.add('on');
+        slidePopup.classList.add('slide-in');
+    }
+
+    function hideModal() {
+        document.body.style.overflow = '';
+        modalBackdrop.classList.remove('on');
+        slidePopup.classList.remove('slide-in');
+
+        // 팝업이 닫힐 때 slide-out 애니메이션을 적용합니다.
+        slidePopup.classList.add('slide-out');
+        setTimeout(function() {
+            slidePopup.innerHTML = ''; // 팝업 내용 초기화
+            slidePopup.classList.remove('slide-out');
+        }, 500); // 애니메이션이 완전히 끝난 후 팝업 컨테이너를 숨김
+    }
+});
+
+
+    </script>
+</body>
+</html>

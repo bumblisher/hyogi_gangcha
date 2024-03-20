@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>바텀 시트 팝업</title>
+<link rel="stylesheet" href="../../cm/css/base.css">
+<link rel="stylesheet" href="../../cm/css/contents.css">
+</head>
+<body>
+    <!-- addr_setting_on = 주소설정 -->
+    <!-- addr_manage_on = 주소관리 -->
+    <!-- addr_sch_on = 주소검색 -->
+    <!-- detail_on = 상세 정보 입력 -->
+    <div class="bottom_sheet open addr_setting_on addr_manage_on addr_sch_on detail_on">
+        <header class="header tit">
+            <a href="#" class="btn_back">뒤로가기</a>
+            <div class="titbox">
+                <h2>주소설정</h2>
+            </div>
+            <div class="sub_btnbox">
+                <button class="btn_cm">편집</button>
+            </div>
+        </header>
+        
+        <div class="container no_tabbar">
+            <div class="sub_contents bg_white">
+                <div class="bottom_sheet_content">
+                    <div class="schbox type02">
+                        <div class="iptbox">
+                            <input type="text" class="btn_ipt" placeholder="지번, 도로명, 건물명으로 검색">
+                            <button class="reset">초기화</button>
+                        </div>
+                    </div>
+
+                    <!-- 주소설정 영역 -->
+                    <!-- li 태그에 기본상태 default, 등록된 후 active, 선택된 상태 active on-->
+                    <div class="addr_setting_grp">
+                        <div class="addr_schbox">
+                            <a href="#">현 위치에서 세차장 찾기</a>
+                        </div>
+                        <ul class="addr_listbox">
+                            <li class="default">
+                                <a href="#" class="addr_addbox">
+                                    <span class="name">우리집 주소 등록하기</span>
+                                    <div class="subtxt_box">
+                                        <span>경기도 성남시 광차구 광진동 123-4</span>
+                                        <span>광차아파트 401-214</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="default">
+                                <a href="#" class="addr_comp_addbox">
+                                    <span class="name">회사 주소 등록하기</span>
+                                    <div class="subtxt_box">
+                                        <span>경기도 성남시 광차구 광진동 123-4</span>
+                                        <span>광차빌딩 1호</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="active on">
+                                <a href="#" class="addr_addbox">
+                                    <span class="name">우리집</span>
+                                    <div class="subtxt_box">
+                                        <span>경기도 성남시 광차구 광진동 123-4</span>
+                                        <span>광차아파트 401-214</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="#" class="addr_comp_addbox">
+                                    <span class="name">회사</span>
+                                    <div class="subtxt_box">
+                                        <span>경기도 성남시 광차구 광진동 123-4</span>
+                                        <span>광차빌딩 1호</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 주소 관리 영역-->
+                    <div class="addr_manage_grp">
+                        <ul class="addr_listbox">
+                            <li class="active">
+                                <a href="#" class="addr_addbox">
+                                    <span class="name">회사</span>
+                                    <div class="subtxt_box">
+                                        <span>경기도 성남시 광차구 광진동 123-4</span>
+                                        <span>광차빌딩 1호</span>
+                                        <div class="sub_btnbox">
+                                            <button class="btn_cm">수정</button>
+                                            <button class="btn_cm">삭제</button>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="#" class="addr_comp_addbox">
+                                    <span class="name">회사</span>
+                                    <div class="subtxt_box">
+                                        <span>경기도 성남시 광차구 광진동 123-4</span>
+                                        <span>광차빌딩 1호</span>
+                                        <div class="sub_btnbox">
+                                            <button class="btn_cm">수정</button>
+                                            <button class="btn_cm">삭제</button>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="addr_sch_grp">
+                        <!-- 주소검색 API 영역 -->
+                    </div>
+
+                    <!-- 상세주소 영역 -->
+                    <div class="addr_sch_detail_grp">
+                        <div>
+                            <p class="addr_detail_name">신사현대2차아파트</p>
+                            <p class="addr_detail_name2">서울 은평구 가좌로 344 신사현대2차아파트</p>
+                        </div>
+                        <div class="detail_txtbox">
+                            <span>상세주소(선택)</span>
+                            <input type="text" class="txt_iptbox" placeholder="상세주소 입력">
+                        </div>
+                        <div class="btnbox">
+                            <button id="close-slide-popup" class="btn_cm conf">등록하기</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+<script></script>
+</body>
+</html>

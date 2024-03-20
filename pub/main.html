@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>광차</title>
+    <link rel="stylesheet" href="../cm/css/base.css">
+    <link rel="stylesheet" href="../cm/css/contents.css">
+    <link rel="stylesheet" href="../cm/css/swiper-bundle.min.css">
+    <script src="../cm/js/swiper-bundle.min.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <a href="#" class="select_btn">우리집</a>
+        </div>
+        <div class="right">
+            <button class="mypage_btn">마이페이지</button>
+            <div class="alarmbox">
+                <button class="alarm_btn">알림</button>
+                <span class="cnt_txt">55</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="sub_contents roundbox">
+            <section class="section01 pt0">
+                <article class="tabbox _scroll">
+                    <div class="_flex">
+                        <a href="#" class="tab_btn">
+                            <span class="name">광페이머니</span>
+                            <span class="round_txt">충전</span>
+                            <div class="_flex _baseline">
+                                <span class="price_txt ml24">380,000</span>
+                                <span class="amount_txt">원</span>
+                            </div>
+                        </a>
+                        <a href="#" class="tab_btn">
+                            <span class="name">쿠폰</span>
+                            <div class="_flex _baseline">
+                                <span class="price_txt ml10">2</span>
+                                <span class="amount_txt">장</span>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+                <!-- Slider main container -->
+                <article>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="../cm/images/main_banner01.png"></div>
+                            <div class="swiper-slide">Slide 2</div>
+                            <div class="swiper-slide">Slide 3</div>
+                            <div class="swiper-slide">Slide 4</div>
+                            <div class="swiper-slide">Slide 5</div>
+                            <div class="swiper-slide">Slide 6</div>
+                            <div class="swiper-slide">Slide 7</div>
+                            <div class="swiper-slide">Slide 8</div>
+                            <div class="swiper-slide">Slide 9</div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        </div>
+                </article>
+        
+                <article class="recbox">
+                    <p class="">김광석님을 위한 추천 세차장</p>
+                    <a href="#" class="rec_conbox rec">
+                        <div class="rec_con_lt">
+                            <div>
+                                <span></span>
+                                <span class="success">원활</span>
+                            </div>
+                            
+                            <img src="../cm/images/ico_rec_list01.png" alt="세차장 사진">
+                        </div>
+                        <div class="rec_con_rt">
+                            <div class="namebox">
+                                <p>헐크워시</p>
+                                <i class="ico_fav">별점</i>
+                                <span>4.8</span>
+                            </div>
+                            <div class="earned_pointbox">
+                                <span>매장포인트</span>
+                                <span>9,500P</span>
+                            </div>
+                            <div class="addressbox">
+                                <span>0.8km</span>
+                                <span>서울 성동구 왕십리로</span>
+                            </div>
+                            <div class="tagbox">
+                                <div>
+                                    <span>카페</span>
+                                    <span>편의점</span>
+                                    <span>애견동반</span>
+                                    <span>손세차</span>
+                                    <span>정비가능</span>
+                                    <span>인쇄가능</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            </section>
+            
+            <section class="recbox">
+                <div class="sub_filter_box">
+                    <ul class="sub_filter">
+                        <li class="on"><button class="ico_subtab01">거리순</button></li>
+                        <li><button class="ico_subtab02">포인트순</button></li>
+                        <li><button class="ico_subtab03">별점순</button></li>
+                        <li id="open-slide-popup" class="arrow"><button class="ico_subtab04">부대시설여부</button></li>
+                    </ul>
+                </div>
+                <a href="#" class="rec_conbox">
+                    <div class="rec_con_lt">
+                        <div>
+                            <span></span>
+                            <span class="success">원활</span>
+                        </div>
+                        
+                        <img src="../cm/images/ico_rec_list02.png" alt="세차장 사진">
+                    </div>
+                    <div class="rec_con_rt">
+                        <div class="namebox">
+                            <p>헐크워시</p>
+                            <i class="ico_fav">별점</i>
+                            <span>4.8</span>
+                        </div>
+                        <div class="earned_pointbox">
+                            <span>매장포인트</span>
+                            <span>9,500P</span>
+                        </div>
+                        <div class="addressbox">
+                            <span>0.8km</span>
+                            <span>서울 성동구 왕십리로</span>
+                        </div>
+                        <div class="tagbox">
+                            <div>
+                                <span>카페</span>
+                                <span>편의점</span>
+                                <span>애견동반</span>
+                                <span>손세차</span>
+                                <span>정비가능</span>
+                                <span>인쇄가능</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="rec_conbox">
+                    <div class="rec_con_lt">
+                        <div>
+                            <span></span>
+                            <span class="congested">혼잡</span>
+                        </div>
+                        
+                        <img src="../cm/images/ico_rec_list03.png" alt="세차장 사진">
+                    </div>
+                    <div class="rec_con_rt">
+                        <div class="namebox">
+                            <p>헐크워시</p> 
+                            <i class="ico_fav">별점</i>
+                            <span>4.8</span>
+                        </div>
+                        <div class="earned_pointbox nopoint">
+                            <span>매장포인트</span>
+                            <span>9,500P</span>
+                        </div>
+                        <div class="addressbox">
+                            <span>0.8km</span>
+                            <span>서울 성동구 왕십리로</span>
+                        </div>
+                        <div class="tagbox" >
+                            <div>
+                                <span>카페</span>
+                                <span>편의점</span>
+                                <span>애견동반</span>
+                                <span>손세차</span>
+                                <span>정비가능</span>
+                                <span>인쇄가능</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="rec_conbox">
+                    <div class="rec_con_lt">
+                        <div>
+                            <span></span>
+                            <span class="finish">종료</span>
+                        </div>
+                        
+                        <img src="../cm/images/ico_rec_list04.png" alt="세차장 사진">
+                    </div>
+                    <div class="rec_con_rt">
+                        <div class="namebox">
+                            <p>헐크워시</p>
+                            <i class="ico_fav">별점</i>
+                            <span>4.8</span>
+                        </div>
+                        <div class="earned_pointbox">
+                            <span>매장포인트</span>
+                            <span>9,500P</span>
+                        </div>
+                        <div class="addressbox">
+                            <span>0.8km</span>
+                            <span>서울 성동구 왕십리로</span>
+                        </div>
+                        <div class="tagbox">
+                            <div>
+                                <span>카페</span>
+                                <span>편의점</span>
+                                <span>애견동반</span>
+                                <span>손세차</span>
+                                <span>정비가능</span>
+                                <span>인쇄가능</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="rec_conbox">
+                    <div class="rec_con_lt">
+                        <div>
+                            <span></span>
+                            <span class="finish">종료</span>
+                        </div>
+                        
+                        <img src="../cm/images/ico_rec_list06.png" alt="세차장 사진">
+                    </div>
+                    <div class="rec_con_rt">
+                        <div class="namebox">
+                            <p>헐크워시</p>
+                            <i class="ico_fav">별점</i>
+                            <span>4.8</span>
+                        </div>
+                        <div class="earned_pointbox">
+                            <span>매장포인트</span>
+                            <span>9,500P</span>
+                        </div>
+                        <div class="addressbox">
+                            <span>0.8km</span>
+                            <span>서울 성동구 왕십리로</span>
+                        </div>
+                        <div class="tagbox">
+                            <div>
+                                <span>카페</span>
+                                <span>편의점</span>
+                                <span>애견동반</span>
+                                <span>손세차</span>
+                                <span>정비가능</span>
+                                <span>인쇄가능</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="rec_conbox">
+                    <div class="rec_con_lt">
+                        <div>
+                            <span></span>
+                            <span class="finish">종료</span>
+                        </div>
+                        
+                        <img src="../cm/images/ico_rec_list07.png" alt="세차장 사진">
+                    </div>
+                    <div class="rec_con_rt">
+                        <div class="namebox">
+                            <p>헐크워시</p>
+                            <i class="ico_fav">별점</i>
+                            <span>4.8</span>
+                        </div>
+                        <div class="earned_pointbox">
+                            <span>매장포인트</span>
+                            <span>9,500P</span>
+                        </div>
+                        <div class="addressbox">
+                            <span>0.8km</span>
+                            <span>서울 성동구 왕십리로</span>
+                        </div>
+                        <div class="tagbox">
+                            <div>
+                                <span>카페</span>
+                                <span>편의점</span>
+                                <span>애견동반</span>
+                                <span>손세차</span>
+                                <span>정비가능</span>
+                                <span>인쇄가능</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="rec_conbox">
+                    <div class="rec_con_lt">
+                        <div>
+                            <span></span>
+                            <span class="finish">종료</span>
+                        </div>
+                        
+                        <img src="../cm/images/ico_rec_list05.png" alt="세차장 사진">
+                    </div>
+                    <div class="rec_con_rt">
+                        <div class="namebox">
+                            <p>헐크워시</p>
+                            <i class="ico_fav">별점</i>
+                            <span>4.8</span>
+                        </div>
+                        <div class="earned_pointbox">
+                            <span>매장포인트</span>
+                            <span>9,500P</span>
+                        </div>
+                        <div class="addressbox">
+                            <span>0.8km</span>
+                            <span>서울 성동구 왕십리로</span>
+                        </div>
+                        <div class="tagbox">
+                            <div>
+                                <span>카페</span>
+                                <span>편의점</span>
+                                <span>애견동반</span>
+                                <span>손세차</span>
+                                <span>정비가능</span>
+                                <span>인쇄가능</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="rec_conbox">
+                    <div class="rec_con_lt">
+                        <div>
+                            <span></span>
+                            <span class="finish">종료</span>
+                        </div>
+                        
+                        <img src="../cm/images/ico_rec_list06.png" alt="세차장 사진">
+                    </div>
+                    <div class="rec_con_rt">
+                        <div class="namebox">
+                            <p>헐크워시</p>
+                            <i class="ico_fav">별점</i>
+                            <span>4.8</span>
+                        </div>
+                        <div class="earned_pointbox">
+                            <span>매장포인트</span>
+                            <span>9,500P</span>
+                        </div>
+                        <div class="addressbox">
+                            <span>0.8km</span>
+                            <span>서울 성동구 왕십리로</span>
+                        </div>
+                        <div class="tagbox">
+                            <div>
+                                <span>카페</span>
+                                <span>편의점</span>
+                                <span>애견동반</span>
+                                <span>손세차</span>
+                                <span>정비가능</span>
+                                <span>인쇄가능</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="rec_conbox">
+                    <div class="rec_con_lt">
+                        <div>
+                            <span></span>
+                            <span class="finish">종료</span>
+                        </div>
+                        
+                        <img src="../cm/images/ico_rec_list07.png" alt="세차장 사진">
+                    </div>
+                    <div class="rec_con_rt">
+                        <div class="namebox">
+                            <p>헐크워시</p>
+                            <i class="ico_fav">별점</i>
+                            <span>4.8</span>
+                        </div>
+                        <div class="earned_pointbox">
+                            <span>매장포인트</span>
+                            <span>9,500P</span>
+                        </div>
+                        <div class="addressbox">
+                            <span>0.8km</span>
+                            <span>서울 성동구 왕십리로</span>
+                        </div>
+                        <div class="tagbox">
+                            <div>
+                                <span>카페</span>
+                                <span>편의점</span>
+                                <span>애견동반</span>
+                                <span>손세차</span>
+                                <span>정비가능</span>
+                                <span>인쇄가능</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <button class="tabbar01">머니 충전</button>
+        <button class="tabbar02">이벤트</button>
+        <button class="tabbar_main on">로고</button>
+        <button class="tabbar03">즐겨찾기</button>
+        <button class="tabbar04">친구추가</button>
+        <div class="map_fix">
+            <button class="btn_map">지도보기</button>
+        </div>
+    </footer>
+    <!-- 모달 백드롭 -->
+    <div id="modal-backdrop" class="dim"></div>
+    <!-- 팝업 -->
+    <div id="slide-popup" class="slide-popup"></div>
+    
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            loop: false,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+            },  
+        });
+
+// script.js
+document.addEventListener('DOMContentLoaded', function() {
+    var openSlidePopupBtn = document.getElementById('open-slide-popup');
+    var modalBackdrop = document.getElementById('modal-backdrop');
+    var slidePopup = document.getElementById('slide-popup');
+
+    openSlidePopupBtn.addEventListener('click', function() {
+        fetch('CO/slide_popup.html')
+            .then(response => response.text())
+            .then(html => {
+                slidePopup.innerHTML = html;
+                showModal();
+                document.body.style.overflow = 'hidden';
+
+                // 팝업이 열린 후 닫기 버튼에 이벤트를 바인딩합니다.
+                var closeSlidePopupBtn = document.getElementById('close-slide-popup');
+                closeSlidePopupBtn.addEventListener('click', function() {
+                    hideModal();
+                });
+            })
+            .catch(error => console.error('팝업 로드 중 에러:', error));
+    });
+
+    function showModal() {
+        modalBackdrop.classList.add('on');
+        slidePopup.classList.add('slide-in');
+    }
+
+    function hideModal() {
+        document.body.style.overflow = '';
+        modalBackdrop.classList.remove('on');
+        slidePopup.classList.remove('slide-in');
+
+        // 팝업이 닫힐 때 slide-out 애니메이션을 적용합니다.
+        slidePopup.classList.add('slide-out');
+        setTimeout(function() {
+            slidePopup.innerHTML = ''; // 팝업 내용 초기화
+            slidePopup.classList.remove('slide-out');
+        }, 500); // 애니메이션이 완전히 끝난 후 팝업 컨테이너를 숨김
+    }
+});
+
+
+    </script>
+</body>
+</html>
