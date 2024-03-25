@@ -134,3 +134,60 @@ section.bg_sub_gray {padding:24px 16px 0}
 .pop_contents.green .pop_header {border-bottom:0}
 .coupon_coment {line-height:150%;text-align:center}
 .coupon_coment + .list_coupon {margin-top:16px}
+
+
+
+.btn_setting {width:40px;height:40px;background:url(../../cm/images/ico_setting.svg) no-repeat center;font-size:0;text-indent:-9999px}
+
+
+.mypage_hd {display:flex;flex-direction:column;align-items:center;justify-content:center;padding-top:8px}
+.mypage_hd .img_profile {overflow:hidden;width:72px;height:72px;border-radius:50%}
+.mypage_hd .name {margin-top:8px;font-size:18px;line-height:150%}
+.mypage_hd .name a {display:inline-flex;align-items:center;height:27px}
+.mypage_hd .name a::after {content:'';display:inline-block;width:16px;height:16px;margin-top:-2px;background:url(../../cm/images/ico_myprofile_arr_right.svg) no-repeat center;vertical-align:middle}
+.mypage_hd .name .user_name {position:relative;margin-left:4px;font-weight:600;box-shadow:inset 0 -12px 0 #E6FFE3;padding:0 4px;vertical-align: middle}
+
+.list_gray_info {display:flex;gap:4px;margin-top:16px}
+.list_gray_info li {display:flex;flex:1 1 auto;flex-direction:column;align-items:center;justify-content:center;height:66px;background:#F4F4F4;border-radius:16px}
+.list_gray_info li .tit {font-size:12px;color:#888888;line-height:150%}
+.list_gray_info li .cnt {line-height:150%}
+.list_gray_info li .cnt .count {font-weight:700;font-size:16px}
+
+.mypage_menu {display:flex;height:85px;margin-top:16px;padding:16px;border:1px solid #DDDDDD;border-radius:14px;box-sizing:border-box}
+.mypage_menu li {flex:1}
+.mypage_menu li a {display:block;padding-top:32px;font-size:16px;font-weight:600;line-height:150%;text-align:center}
+.mypage_menu li .charge {background:url(../../cm/images/bg_mypage_charge.svg) no-repeat center top}
+.mypage_menu li .use {background:url(../../cm/images/bg_mypage_use.svg) no-repeat center top}
+.mypage_menu li .card {background:url(../../cm/images/bg_mypage_card.svg) no-repeat center top}
+
+.list_lately_use {margin-top:4px}
+.list_lately_use > li {padding:16px;border:1px solid #DDDDDD;border-radius:14px}
+.list_lately_use > li .lately_use_title {display:flex;align-items:center}
+.list_lately_use > li .lately_use_title .tit {font-size:16px;font-weight:600;color:#111111;margin-right:4px}
+.list_lately_use > li .lately_use_title .badge {border-radius:6px;height:23px;padding:0 8px;line-height:23px;background:#DEF7E4;color:#097E25;font-size:10px;font-weight:700;font-family:'nanumSquare'}
+.list_lately_use > li .lately_use_title .date {margin-left:auto;color:#888888;font-size:12px}
+.list_lately_use > li .lately_use_cnt {display:flex;align-items:center;margin-top:12px}
+.list_lately_use > li .lately_use_cnt p {position:relative;font-size:14px;line-height:140%;color:#333333}
+.list_lately_use > li .lately_use_cnt p + p {padding-left:17px}
+.list_lately_use > li .lately_use_cnt p + p::before {content:'';position:absolute;left:9px;top:50%;width:1px;height:12px;background:#EEEEEE;margin-top:-6px}
+.list_lately_use > li .use_price {margin-top:12px}
+.list_lately_use > li .use_price .use_price_sum {display:flex;align-items:center;color:#111111;line-height:150%}
+.list_lately_use > li .use_price .use_price_sum .tit {font-size:14px;margin-right:auto;color:#888888}
+.list_lately_use > li .use_price .use_price_sum .price {color:#111111;font-size:16px;font-weight:700}
+.list_lately_use > li .use_price .use_price_sum .btn_price_detail {width:18px;height:18px;background:url(../../cm/images/ico_use_price_sum.svg) no-repeat center;margin-left:4px;font-size:0;text-indent:-9999px}
+.list_lately_use > li .use_price .use_price_detail {margin-top:12px;padding:16px;background:#F4F4F4;border-radius:8px;box-sizing:border-box}
+.list_lately_use > li .use_price .use_price_detail li {display:flex;align-items:center;line-height:150%}
+.list_lately_use > li .use_price .use_price_detail li + li {margin-top:8px}
+.list_lately_use > li .use_price .use_price_detail li .tit {margin-right:auto;font-size:14px;color:#888888}
+.list_lately_use > li .use_price .use_price_detail li .cnt {color:#111111}
+.list_lately_use > li .grp_btn {margin-top:20px}
+
+.list_noti {padding:0 24px 40px}
+.list_noti > li {height:76px;border-bottom:1px solid #EEEEEE}
+.list_noti > li > a {display:flex;height:100%;align-items:center;font-size:16px}
+.list_noti > li > a::before {flex:none;content:'';display:block;width:44px;height:44px;border-radius:50%;margin-right:8px}
+.list_noti > li > a::after {flex:none;content:'';display:block;width:24px;height:24px;margin-left:auto;background:url(../../cm/images/ico_noti_arrow.svg) no-repeat center}
+.list_noti > li > a.noti::before {background:#F4F4F4 url(../../cm/images/ico_noti_speaker.svg) no-repeat center}
+.list_noti > li > a.custom::before {background:#F4F4F4 url(../../cm/images/ico_noti_headphone.svg) no-repeat center}
+.list_noti > li > a.docu::before {background:#F4F4F4 url(../../cm/images/ico_noti_message.svg) no-repeat center}
+.list_noti > li > a.version::before {background:#F4F4F4 url(../../cm/images/ico_noti_check.svg) no-repeat center}
