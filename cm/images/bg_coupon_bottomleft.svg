@@ -1,0 +1,33 @@
+<svg width="238" height="22" viewBox="0 0 238 22" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g clip-path="url(#clip0_3031_7992)">
+<g filter="url(#filter0_di_3031_7992)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M279 -134C277.343 -134 276.029 -132.644 275.722 -131.016C274.324 -123.606 267.817 -118 260 -118C252.183 -118 245.675 -123.606 244.278 -131.016C243.971 -132.644 242.657 -134 241 -134H17C7.61116 -134 0 -126.389 0 -117V5C0 14.3888 7.61116 22 17 22H241C242.657 22 243.971 20.6444 244.278 19.0163C245.675 11.6056 252.183 6 260 6C267.817 6 274.324 11.6056 275.722 19.0163C276.029 20.6444 277.343 22 279 22H311C320.389 22 328 14.3888 328 5V-117C328 -126.389 320.389 -134 311 -134H279Z" fill="white"/>
+</g>
+</g>
+<rect x="22" width="216" height="22" fill="url(#pattern0)"/>
+<defs>
+<filter id="filter0_di_3031_7992" x="-12" y="-138" width="352" height="180" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="8"/>
+<feGaussianBlur stdDeviation="6"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3031_7992"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3031_7992" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_3031_7992"/>
+</filter>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.00462963" height="1">
+<use xlink:href="#image0_3031_7992" transform="scale(0.00115741 0.0113636)"/>
+</pattern>
+<clipPath id="clip0_3031_7992">
+<rect width="22" height="22" fill="white"/>
+</clipPath>
+<image id="image0_3031_7992" width="4" height="88" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAABYCAYAAADSvVbyAAAACXBIWXMAACxLAAAsSwGlPZapAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA5SURBVHgB7dSxFQAgCANR9LH/wkDUUimEAXLlb9JlrJNcTUkRCAQCoQOa7lQUQAFmVoC7vxAR/9kNNm4cd5hQByQAAAAASUVORK5CYII="/>
+</defs>
+</svg>

@@ -1,0 +1,33 @@
+<svg width="238" height="22" viewBox="0 0 238 22" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g clip-path="url(#clip0_3031_7991)">
+<g filter="url(#filter0_di_3031_7991)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M279 0C277.343 0 276.029 1.3556 275.722 2.98374C274.324 10.3944 267.817 16 260 16C252.183 16 245.675 10.3944 244.278 2.98374C243.971 1.3556 242.657 0 241 0H17C7.61116 0 0 7.61116 0 17V139C0 148.389 7.61116 156 17 156H241C242.657 156 243.971 154.644 244.278 153.016C245.675 145.606 252.183 140 260 140C267.817 140 274.324 145.606 275.722 153.016C276.029 154.644 277.343 156 279 156H311C320.389 156 328 148.389 328 139V17C328 7.61116 320.389 0 311 0H279Z" fill="white"/>
+</g>
+</g>
+<rect x="22" width="216" height="22" fill="url(#pattern0)"/>
+<defs>
+<filter id="filter0_di_3031_7991" x="-12" y="-4" width="352" height="180" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="8"/>
+<feGaussianBlur stdDeviation="6"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3031_7991"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3031_7991" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_3031_7991"/>
+</filter>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.00462963" height="1">
+<use xlink:href="#image0_3031_7991" transform="scale(0.00231481 0.0227273)"/>
+</pattern>
+<clipPath id="clip0_3031_7991">
+<rect width="22" height="22" fill="white"/>
+</clipPath>
+<image id="image0_3031_7991" width="2" height="44" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAsCAYAAABPEGliAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAeSURBVHgB7caxAQAADAEw7f8/Y/CDRaYcDfaIpRUBZdAEVMonFmsAAAAASUVORK5CYII="/>
+</defs>
+</svg>
