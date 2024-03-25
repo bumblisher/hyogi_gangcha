@@ -66,7 +66,7 @@ h3:first-child{margin-top: 0;}
 .btn_link{font-size:14px;font-weight: 500;line-height: 150%;color:#111;padding-right: 14px;background: url(../images/ico_arrow_right.png) no-repeat center right;}
 .btn_sub{display: flex;align-items: center;justify-content: center;height: 44px;text-align: center;border: 1px solid #eee;border-radius: 8px;width: 100%;color:#111;font-size: 14px;font-weight: 500;;}
 .btn_sub.logout::before{content: '';display: inline-block;background: url(../images/ico_logout.svg) no-repeat center;width: 16px;height: 16px;margin-right: 4px;}
-.btn_gray{display:block;margin: 16px auto 0;font-size: 16px;line-height: 150%;color:#888;text-decoration: underline;text-align: center;}
+.btn_text{display:block;margin: 16px auto 0;font-size: 16px;line-height: 150%;color:#888;text-decoration: underline;text-align: center;}
 
 .img_my{position: relative;width: 72px;height: 72px;border-radius: 50%;margin: 16px auto;}
 .img_my a{position: relative;width: 72px;height: 72px;overflow: hidden;border-radius: 50%;}
