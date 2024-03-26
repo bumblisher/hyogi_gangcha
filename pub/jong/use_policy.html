@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>광차 - 고객센터 </title>
+    <link rel="stylesheet" href="../../cm/css/base.css">
+    <link rel="stylesheet" href="../../cm/css/contents.css">
+    <link rel="stylesheet" href="../../cm/css/bum.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var btnCustomLink = document.querySelector('.btn_custom_link');
+            var customLinkCnt = document.querySelector('.custom_link_cnt');
+            
+            btnCustomLink.addEventListener('click', function() {
+                btnCustomLink.classList.toggle('on');
+                customLinkCnt.classList.toggle('on');
+            });
+        });
+    </script>
+</head>
+<body>
+    <header class="header tit">
+        <a href="#" class="btn_back">뒤로가기</a>
+        <div class="titbox">
+            <h2>고객센터</h2>       
+        </div>
+    </header>
+    <div class="container">
+        <div class="sub_contents bg_white">
+            <section>
+                <ul class="custom_link">
+                    <li>
+                        <button type="button" class="btn_custom_link">자주 묻는 질문</button>
+                        <div class="custom_link_cnt">
+                            <ul class="custom_question">
+                                <li>
+                                    <p class="tit">충전 결제는 어떻게 진행되나요?</p>
+                                    <p class="cnt">충전은 메인 화면에서 충전 버튼 또는 하단 메뉴에서 아이콘을 누르면 해당 페이지에서 진행 가능합니다.</p>
+                                </li>
+                                <li>
+                                    <p class="tit">충전 결제는 어떻게 진행되나요? 충전 결제는 어떻게 진행되나요?</p>
+                                    <p class="cnt">충전은 메인 화면에서 충전 버튼 또는 하단 메뉴에서 아이콘을 누르면 해당 페이지에서 진행 가능합니다.</p>
+                                </li>
+                                <li>
+                                    <p class="tit">충전 결제는 어떻게 진행되나요? 충전 결제는 어떻게 진행되나요?</p>
+                                    <p class="cnt">충전은 메인 화면에서 충전 버튼 또는 하단 메뉴에서 아이콘을 누르면 해당 페이지에서 진행 가능합니다.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <button type="button" class="btn_custom_link">이메일 문의</button>
+                    </li>
+                    <li>
+                        <button type="button" class="btn_custom_link">고객 안심센터 상담</button>
+                        <div class="custom_link_cnt">
+                            
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <!-- 모달 백드롭 -->
+    <div id="modal-backdrop" class="dim"></div>
+    <!-- 팝업 -->
+    <div id="" class=""></div>
+    
+</body>
+</html>
