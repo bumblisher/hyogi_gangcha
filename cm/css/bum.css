@@ -95,6 +95,7 @@ h3:first-child{margin-top: 0;}
 
 .bg_sub_gray {background:#F4F4F4}
 section.bg_sub_gray {padding:24px 16px 0}
+section.cm_pd {padding:0 16px 24px 16px}
 
 .hd_coupon {padding:0 16px 24px 16px}
 .hd_coupon .tit_coupon {display:flex;height:36px;margin:0 8px 10px 8px;align-items:flex-end}
@@ -160,8 +161,14 @@ section.bg_sub_gray {padding:24px 16px 0}
 .mypage_menu li .use {background:url(../../cm/images/bg_mypage_use.svg) no-repeat center top}
 .mypage_menu li .card {background:url(../../cm/images/bg_mypage_card.svg) no-repeat center top}
 
+.my_adv {display:flex;align-items:center;justify-content:center;margin-top:16px;margin-bottom:32px;padding:16px 20px;background:#231E3A;border-radius:16px}
+.grp_my_adv {min-width:290px;padding-left:72px;background:url(../../cm/images/bg_event_gift.svg) no-repeat 0 center}
+.my_adv p {font-weight:500;font-size:16px;color:#FFFFFF;line-height:140%}
+.my_adv p + p {font-weight:800;font-size:20px;color:#FFFFFF;line-height:140%}
+
 .list_lately_use {margin-top:4px}
 .list_lately_use > li {padding:16px;border:1px solid #DDDDDD;border-radius:14px}
+.list_lately_use > li + li {margin-top:12px}
 .list_lately_use > li .lately_use_title {display:flex;align-items:center}
 .list_lately_use > li .lately_use_title .tit {font-size:16px;font-weight:600;color:#111111;margin-right:4px}
 .list_lately_use > li .lately_use_title .badge {border-radius:6px;height:23px;padding:0 8px;line-height:23px;background:#DEF7E4;color:#097E25;font-size:10px;font-weight:700;font-family:'nanumSquare'}
@@ -175,12 +182,18 @@ section.bg_sub_gray {padding:24px 16px 0}
 .list_lately_use > li .use_price .use_price_sum .tit {font-size:14px;margin-right:auto;color:#888888}
 .list_lately_use > li .use_price .use_price_sum .price {color:#111111;font-size:16px;font-weight:700}
 .list_lately_use > li .use_price .use_price_sum .btn_price_detail {width:18px;height:18px;background:url(../../cm/images/ico_use_price_sum.svg) no-repeat center;margin-left:4px;font-size:0;text-indent:-9999px}
-.list_lately_use > li .use_price .use_price_detail {margin-top:12px;padding:16px;background:#F4F4F4;border-radius:8px;box-sizing:border-box}
+.list_lately_use > li .use_price .use_price_detail {display:none;margin-top:12px;padding:16px;background:#F4F4F4;border-radius:8px;box-sizing:border-box}
+.list_lately_use > li .use_price .use_price_detail.on {display:block}
 .list_lately_use > li .use_price .use_price_detail li {display:flex;align-items:center;line-height:150%}
 .list_lately_use > li .use_price .use_price_detail li + li {margin-top:8px}
 .list_lately_use > li .use_price .use_price_detail li .tit {margin-right:auto;font-size:14px;color:#888888}
 .list_lately_use > li .use_price .use_price_detail li .cnt {color:#111111}
 .list_lately_use > li .grp_btn {margin-top:20px}
+
+.no_lately_use {padding:16px;border:1px solid #DDDDDD;border-radius:14px;box-sizing:border-box;text-align:center}
+.no_lately_use p {font-size:14px;line-height:150%;color:#888888}
+.no_lately_use .tit {margin-bottom:4px;font-size:16px;font-weight:600;line-height:150%;color:#111111;padding-top:40px;background:url(../../cm/images/ico_nolaytely.svg) no-repeat center top}
+
 
 .list_noti {padding:0 24px 40px}
 .list_noti > li {height:76px;border-bottom:1px solid #EEEEEE}
