@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="../../cm/css/base.css">
     <link rel="stylesheet" href="../../cm/css/contents.css">
     <link rel="stylesheet" href="../../cm/css/bum.css">
+    <link rel="stylesheet" href="../../cm/css/jong.css">
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            var btnCustomLink = document.querySelector('.btn_custom_link');
-            var customLinkCnt = document.querySelector('.custom_link_cnt');
-            
-            btnCustomLink.addEventListener('click', function() {
-                btnCustomLink.classList.toggle('on');
-                customLinkCnt.classList.toggle('on');
+            var btnCustomLink = document.querySelectorAll('.btn_custom_link');
+
+            btnCustomLink.forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    this.classList.toggle('on');
+                });
             });
         });
     </script>
@@ -55,7 +56,8 @@
                     <li>
                         <button type="button" class="btn_custom_link">고객 안심센터 상담</button>
                         <div class="custom_link_cnt">
-                            
+                            <p class="txt_address">인천 서구 ㅇㅇ동 ㅇㅇ번지 ㅁㅁ빌딩</p>
+                            <p class="txt_number">A/S 1500-0000</p>
                         </div>
                     </li>
                 </ul>

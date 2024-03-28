@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="../../cm/css/base.css">
     <link rel="stylesheet" href="../../cm/css/contents.css">
     <link rel="stylesheet" href="../../cm/css/bum.css">
+    <link rel="stylesheet" href="../../cm/css/jong.css">
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             var btnUseList = document.querySelectorAll('.btn_use_list');
+            var btnTip =document.querySelectorAll('.btn_explain');
             
             btnUseList.forEach(function(btn) {
                 btn.addEventListener('click', function() {
                     var useListDetail = this.closest('.use_list_cnt').nextElementSibling;
                     useListDetail.classList.toggle('on');
+                });
+            });
+            btnTip.forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    this.classList.toggle('on');
                 });
             });
         });
@@ -32,6 +39,10 @@
             <section>
                 <div class="box_tit">
                     <h3>이용내역</h3>
+                    <div class="grp_tip">
+                        <button type="button" class="btn_explain"></button>
+                        <p class="tip_content">매장명을 터치하면 해당 매장상세화면<br> 으로 이동합니다.</p>
+                    </div>
                 </div>
                 <ul class="use_list">
                     <li>

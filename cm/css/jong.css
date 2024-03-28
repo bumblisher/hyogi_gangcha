@@ -1,3 +1,41 @@
 @charset "utf-8";
 
 
+.grp_tip {position:relative;margin-left:4px}
+.btn_explain {width:16px;height:16px;background:url(../../cm/images/ico_explain.svg) no-repeat center}
+.btn_explain.on + .tip_content {display:block}
+.tip_content {display:none;position:absolute;left:-20px;top:25px;width:186px;background:#111111;border-radius:8px;padding:8px 12px;line-height:140%;font-weight:500;font-size:12px;color:#FFFFFF}
+.tip_content::before {content:'';position:absolute;left:23px;top:-7px;width:9px;height:7px;background:url(../../cm/images/bg_tip_explain.svg) no-repeat}
+
+
+.btn_custom_link.on + .custom_link_cnt {display:block}
+
+.txt_address {padding-left:20px;color:#111111;font-size:14px;line-height:150%;background:url(../../cm/images/ico_address.svg) no-repeat left top}
+.txt_number {margin-top:10px;padding-left:20px;color:#111111;font-size:14px;line-height:150%;background:url(../../cm/images/ico_number.svg) no-repeat left top}
+
+.grp_policy + .grp_policy {margin-top:24px}
+.grp_policy h3 {font-size:16px;font-weight:500;line-height:150%;color:#111111}
+.grp_policy p {font-size:14px;line-height:150%;color:#888888}
+.grp_policy p + p {margin-top:12px}
+.grp_policy h3 + p {margin-top:16px}
+
+.pg_terms .pg_txt {margin-top:32px;margin-bottom:32px;font-size:20px;font-weight:500;line-height:150%;color:#111111}
+.pg_terms .chk_all {margin-left:16px;margin-bottom:16px}
+.pg_terms .chk_all .check_label {font-weight:500}
+.pg_terms .chk_cnt {display:flex;align-items:center;min-height:53px;border-radius:16px;padding:0 16px;background:#F4F4F4 url(../../cm/images/ico_chkcnt_arrow.svg) no-repeat right 16px top 18.5px}
+.pg_terms .chk_cnt.detail {flex-direction:column;align-items:flex-start;padding:16px}
+.pg_terms .chk_cnt + .chk_cnt {margin-top:8px}
+.pg_terms .chk_cnt .txt {display:inline-block;margin-left:8px;font-size:14px;font-weight:400;color:#333333}
+.pg_terms .chk_cnt ul {display:block;width:100%;margin-top:8px;padding-top:12px;border-top:1px solid #DDDDDD}
+.pg_terms .chk_cnt ul li {display:flex;}
+.pg_terms .chk_cnt ul li + li {margin-top:8px}
+.pg_terms .chk_cnt ul li .tit {flex:none;width:72px;font-size:14px;color:#888888}
+.pg_terms .chk_cnt ul li p {line-height:150%}
+
+.pg_terms .terms_info {display:flex;margin-top:8px;font-size:14px;line-height:150%;color:#E95C49}
+.pg_terms .terms_info::before {content:'※';display:block;margin-right:4px;font-size:14px;}
+
+
+.check_label.req {font-weight:600}
+
+.txt_semibold {font-weight:600}
