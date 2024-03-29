@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mobile Popup</title>
+
+</head>
+<body>
+
+<div class="pop_contents">
+    <div class="pop_header">
+        <h2>부대시설 여부 선택</h2>
+        <button class="close">닫기</button>
+    </div>
+    <div class="contents_box">
+        <div class="sub_filter_box type2">
+            <ul class="sub_filter direction-column">
+                <li class="on"><button class="ico_cafe">카페</button></li>
+                <li><button class="ico_rice">편의점</button></li>
+                <li><button class="ico_dog">애견동반</button></li>
+                <li class=""><button class="ico_print">인쇄가능</button></li>
+            </ul>
+        </div>
+        <div class="btnbox">
+            <button id="close-slide-popup" class="btn_cm conf">닫기</button>
+        </div>
+        
+    </div>
+</div>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    console.log("ASDASD");
+    var closeSlidePopupBtn = document.getElementById('close-slide-popup');
+    closeSlidePopupBtn.addEventListener('click', function() {
+        var modalBackdrop = document.getElementById('modal-backdrop');
+        var slidePopup = document.getElementById('slide-popup');
+        modalBackdrop.classList.remove('dim');
+        slidePopup.classList.remove('slide-in');
+    });
+});
+</script>
+
+</body>
+</html>
