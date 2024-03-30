@@ -40,7 +40,9 @@ h3:first-child{margin-top: 0;}
 .grp_form > p.title.req::after{content: '';display: inline-block;width: 4px;height: 4px;background: #FF8E7F;border-radius: 2px;margin-left: 4px;}
 .grp_form > h3{margin-bottom: 8px;}
 .grp_form input[type="text"],
-.grp_form input[type="password"]{width:100%;padding:0 14px;height: 44px;background: #fff;border-radius: 8px;flex:1;box-sizing: border-box;font-weight: 400;font-size: 14px;}
+.grp_form input[type="password"],
+.grp_form select{width:100%;padding:0 14px;height: 44px;background: #fff;border-radius: 8px;box-sizing: border-box;font-weight: 400;font-size: 14px;}
+.grp_form select{padding:12px 34px 12px 14px;background:url(../images/ico_select_arrow.svg) no-repeat right 17px center}
 .grp_form input[type="text"]:focus,
 .grp_form input[type="password"]:focus{border-color: #111;}
 .grp_form input[type="text"]:disabled,
@@ -53,6 +55,9 @@ h3:first-child{margin-top: 0;}
 .grp_form .txt_info::before{content: '';position: relative;top:-4px;width: 3px;height: 3px;border-radius: 50%;margin-right: 4px;margin-left: 2px;background: #888;}
 .grp_text {font-size: 16px;line-height: 150%;color:#333}
 .grp_img{text-align: center;margin: 32px 0;}
+.grp_time{position: relative;}
+.grp_time input[type="text"]{padding-right: 48px;}
+.grp_time span{position: absolute;right: 12px;top:15px;font-size: 14px;color: #E95C49;}
 .grp_form + .grp_form{margin-top: 24px;}
 .grp_text + .grp_form{margin-top: 16px;}
 .box_gray .btn_cm{font-size: 14px;font-weight: 500;height: 44px;margin-top: 36px;}
@@ -60,9 +65,12 @@ h3:first-child{margin-top: 0;}
 .grp_flex{display: flex;align-items: center;gap:8px}
 .grp_flex > *{flex:1}
 .grp_flex > span,
-.grp_flex > button{flex:none}
+.grp_flex > button,
+.grp_flex > *[style*="width"]{flex:none}
 .grp_flex + .grp_flex{margin-top: 8px;}
 .grp_flex .btn_form{}
+.span_passowrd{flex:none;display: inline-flex;align-items: center;gap: 4px}
+.span_passowrd span{width: 12px;height: 12px;background-color: #111;border-radius: 50%;}
 
 .grp_radio{display: flex;gap: 8px;}
 .grp_radio input{display: none;}
@@ -86,6 +94,7 @@ h3:first-child{margin-top: 0;}
 .box_tit h3{margin: 0;}
 
 .big_title{flex:none;font-size: 20px;font-weight: 500;line-height: 150%;}
+.big_title + .chk_all{margin: 32px 0 24px;}
 .big_title + .contents_box{margin-top: 24px;}
 .contents_box{flex:1}
 .contents_box + .box_btn{flex:none}
