@@ -4,7 +4,7 @@
 .grp_tip {position:relative;margin-left:4px}
 .btn_explain {width:16px;height:16px;background:url(../../cm/images/ico_explain.svg) no-repeat center}
 .btn_explain.on + .tip_content {display:block}
-.tip_content {display:none;position:absolute;left:-20px;top:25px;width:186px;background:#111111;border-radius:8px;padding:8px 12px;line-height:140%;font-weight:500;font-size:12px;color:#FFFFFF}
+.tip_content {display:none;position:absolute;left:-20px;top:25px;width:200px;background:#111111;border-radius:8px;padding:8px 12px;line-height:140%;font-weight:500;font-size:12px;color:#FFFFFF}
 .tip_content::before {content:'';position:absolute;left:23px;top:-7px;width:9px;height:7px;background:url(../../cm/images/bg_tip_explain.svg) no-repeat}
 
 

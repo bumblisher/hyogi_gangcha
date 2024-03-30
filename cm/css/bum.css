@@ -170,7 +170,7 @@ section.cm_pd {padding:0 16px 24px 16px}
 .list_coupon > li.used .tit,
 .list_coupon > li.used .price {color:#6E6E6E}
 
-.coupon_alarm_all {padding:24px 32px 12px}
+.coupon_alarm_all {padding:0 32px 12px}
 .coupon_alarm_all .check_label {font-weight:700}
 .coupon_alarm_chk {margin-top:16px;padding:16px 0;border-top:1px solid #EEEEEE}
 .coupon_alarm_chk .check_label {color:#666;font-size:14px}
