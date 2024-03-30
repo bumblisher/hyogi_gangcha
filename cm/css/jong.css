@@ -39,3 +39,38 @@
 .check_label.req {font-weight:600}
 
 .txt_semibold {font-weight:600}
+
+.grp_btn_filter {display:flex;flex-wrap:wrap;gap:8px}
+.grp_btn_filter .btn_filter {display:inline-flex;align-items:center;height:40px;padding:0 16px;border:0;border-radius:40px;background:#F4F4F4;color:#111111;font-size:14px;font-weight:500}
+.grp_btn_filter .btn_filter.lately {padding-left:32px;background:#F4F4F4 url(../../cm/images/ico_btn_lately.svg) no-repeat 14px center}
+.grp_btn_filter .btn_filter.point {padding-left:32px;background:#F4F4F4 url(../../cm/images/ico_btn_point.svg) no-repeat 10px center}
+
+.event_list {margin-top:16px}
+.event_list li {background:#F4F4F4;border-radius:16px;padding:126px 16px 16px;box-sizing:border-box}
+.event_list li + li {margin-top:16px}
+.event_list li .tit {color:#111111;font-size:22px;line-height:130%;text-align:center}
+.event_list li .tit .tit_point {font-size:22px;color:#4CB01D}
+.event_list li .event_cnt {margin-top:8px;border:1px solid #DDDDDD;border-radius:14px;background:#FFFFFF;padding:12px;box-sizing:border-box;text-align:center}
+.event_list li .event_cnt p {font-size:14px;color:#111111;line-height:150%}
+.event_list li .event_cnt .event_txt_info {color:#888888;font-size:12px;margin-top:8px}
+.event_list li .grp_btn {margin-top:16px}
+
+.event_list li.friend {background:#F4F4F4 url(../../cm/images/bg_event_friend.svg) no-repeat center 24px}
+.event_list li.coffee {background:#F4F4F4 url(../../cm/images/bg_event_coffee.svg) no-repeat center 24px}
+
+.container.no_tabbar .contract {background:#FFFFFF}
+.contract .tit {font-size:22px;font-weight:700;line-height:140%;color:#111111;text-align:center}
+.contract .txt {color:#333333;font-size:16px;line-height:150%;text-align:center}
+
+.ct01 {border-radius:0;padding-top:360px;background:#E6F5DA url(../../cm/images/bg_contract01.png) no-repeat center 32px}
+.ct02 {text-align:center}
+
+.ct03 {text-align:center}
+
+.ct_list {display:inline-block;margin-top:24px}
+.ct_list li {position:relative}
+.ct_list li + li {margin-top:6px}
+.ct_list li p {display:flex;align-items:center;font-size:14px;line-height:140%;color:#3A815B} 
+.ct_list li p::before {content:'';display:inline-block;width:11px;height:8px;margin-right:8px;background:url(../../cm/images/ico_ctlist.svg) no-repeat center}
+.ct_list.purple li p {color:#7467B1}
+.ct_list.purple li p::before {background:url(../../cm/images/ico_ctlist_purple.svg) no-repeat center}
