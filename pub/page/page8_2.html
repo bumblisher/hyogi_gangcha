@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>광차 - 마이페이지 </title>
+    <link rel="stylesheet" href="../../cm/css/base.css">
+    <link rel="stylesheet" href="../../cm/css/contents.css">
+    <link rel="stylesheet" href="../../cm/css/page.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var btnPriceDetail = document.querySelectorAll('.btn_price_detail');
+            
+            btnPriceDetail.forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    var usePriceDetail = this.closest('.use_price').querySelector('.use_price_detail');
+                    usePriceDetail.classList.toggle('on');
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <header class="header tit">
+        <a href="#" class="btn_back">뒤로가기</a>
+        <div class="titbox">
+            <h2>마이페이지</h2>       
+        </div>
+        <div class="right">
+            <button class="btn_setting">설정</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="sub_contents">
+            <section class="cm_pd">
+                <div class="mypage_hd">
+                    <div class="img_profile">
+                        <img src="../../cm/images/temp_my.png" alt="프로필 사진"/>
+                    </div>
+                    <div class="name">
+                        <a href="#">
+                            <span>빛나는 당신,</span>
+                            <span class="user_name">김광석 님</span>
+                        </a>
+                    </div>
+                </div>
+                <ul class="list_gray_info">
+                    <li>
+                        <p class="tit">광페이머니</p>
+                        <p class="cnt">
+                            <span class="count">380,000</span>
+                            <span>원</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="tit">매장포인트</p>
+                        <p class="cnt">
+                            <span class="count">상세</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="tit">쿠폰</p>
+                        <p class="cnt">
+                            <span class="count">2</span>
+                            <span>장</span>
+                        </p>
+                    </li>
+                </ul>
+                <ul class="mypage_menu">
+                    <li>
+                        <a href="#" class="charge">충전내역</a>
+                    </li>
+                    <li>
+                        <a href="#" class="use">이용내역</a>
+                    </li>
+                    <li>
+                        <a href="#" class="card">카드관리</a>
+                    </li>
+                </ul>
+                <div class="my_adv">
+                    <div class="grp_my_adv">
+                        <p>광차 친구추천 할 때 마다</p>
+                        <p>2,000P 쏜다!</p>
+                    </div>
+                    
+                </div>
+                <div>
+                    <div class="box_tit">
+                        <h3>최근 이용내역</h3>
+                        <div class="rt">
+                            <a href="#" class="btn_link">더보기</a>
+                        </div>
+                    </div>
+                    <div class="no_lately_use">
+                        <p class="tit">이용 내역이 없습니다.</p>
+                        <p>
+                            광속으로 결제하고 광나게 세차하는 광차!<br>
+                            지금 광차에서 당신의 빛나는 세차 라이프를<br>
+                            누려보세요
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <ul class="list_noti">
+                    <li>
+                        <a href="#" class="noti">공지사항</a>
+                    </li>
+                    <li>
+                        <a href="#" class="custom">고객센터</a>
+                    </li>
+                    <li>
+                        <a href="#" class="docu">약관 및 정책</a>
+                    </li>
+                    <li>
+                        <a href="#" class="version">현재버전 1.9.12(최신버전)</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <!-- 모달 백드롭 -->
+    <div id="modal-backdrop" class="dim"></div>
+    <!-- 팝업 -->
+    <div id="" class=""></div>
+    
+</body>
+</html>
