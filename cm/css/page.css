@@ -222,7 +222,7 @@ section.cm_pd {padding:0 16px 24px 16px}
 
 
 
-.btn_setting {width:40px;height:40px;background:url(../../cm/images/ico_setting.svg) no-repeat center;font-size:0;text-indent:-9999px}
+.btn_setting {width:40px;height:40px;background:url(../../cm/images/ico_setting.png) no-repeat center;font-size:0;text-indent:-9999px}
 
 
 .mypage_hd {display:flex;flex-direction:column;align-items:center;justify-content:center;padding-top:8px}
