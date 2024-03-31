@@ -65,7 +65,7 @@
 .ct01 {position:relative;border-radius:0;margin-bottom:64px;padding:360px 0 32px;background:#E6F5DA url(../../cm/images/bg_contract01.png) no-repeat center 32px}
 .ct01::after {content:'';position:absolute;left:0;top:100%;width:100%;height:64px;background:#E6F5DA;clip-path:polygon(0 0, 0% 100%, 100% 0)}
 .ct02 {border-radius:0;padding:254px 0 48px;background:url(../../cm/images/bg_contract02.png) no-repeat center 32px;text-align:center}
-.ct03 {position:relative;border-radius:0;margin:64px 0;padding:382px 0 32px;background:#E2DDF1 url(../../cm/images/bg_contract03.png) no-repeat center top;text-align:center}
+.ct03 {position:relative;border-radius:0;margin:64px 0;padding:382px 0 32px;background:#E2DDF1 url(../../cm/images/bg_contract03.png) no-repeat center top;text-align:center;background-size: auto;}
 .ct03::before {content:'';position:absolute;left:0;bottom:100%;width:100%;height:64px;background:#E2DDF1;clip-path:polygon(100% 100%, 100% 0%, 0 100%)}
 .ct03::after {content:'';position:absolute;left:0;top:calc(100% - 1px);width:100%;height:64px;background:#E2DDF1;clip-path:polygon(0 0, 0% 100%, 100% 0)}
 .ct04 {padding:40px 16px}
